@@ -7,25 +7,25 @@ A simple blog application built with Flask and SQLite.
  Reverse chronological order display
 ## Installation
 1. Clone the repository
-2. bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+ bash
+ git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+ cd YOUR-REPO-NAME
 
 2. Create a virtual environment and activate it
-cd YOUR-REPO-NAME
-bash
-python -m venv venv
+ bash
+ python -m venv venv
 On Windows
-venv\Scripts\activate
+ venv\Scripts\activate
 On macOS/Linux
-source venv/bin/activate
+ source venv/bin/activate
 
 3. Install required packages
-bash
-pip install flask
+ bash
+ pip install flask
 
 4. Run the application
-bash
-python app.py
+ bash
+ python app.py
 
 The application will be available at `http://localhost:5000`
 
